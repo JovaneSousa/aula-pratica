@@ -1,0 +1,81 @@
+
+body{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+            width: 100%;
+            max-width: 1080px;
+            margin: 5% auto 5% auto;
+            background: linear-gradient(90deg, rgb(64, 8, 167) 0%, rgb(218, 63, 63)); /* Cor de fundo */
+            color: aliceblue;
+}
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+}
+h1{
+    color: blue;
+    text-shadow: 2px 2px rgb(209, 29, 29);
+}
+.container{
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+}
+.img{
+    width: 28%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: justify;
+    max-width: 100%;
+    gap: 50px;
+}
+.Legenda{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+}
+/* section2 */
+.title2{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.vendas{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.resumo{
+    margin-left:  50px;
+    max-width: 85%;
+    text-align: justify;
+}
+.MM{
+    margin-left:  50px;
+    max-width: 85%;
+    text-align: justify;
+}
+
+.Copy{
+    width: 5%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 50px;
+}
